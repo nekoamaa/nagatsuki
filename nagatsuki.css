@@ -1,0 +1,447 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+.home-about-text {
+  color: white;
+  position: relative;
+}
+
+.home-about {
+  background-image: url("../Nagatsuki/Images/chicken.jpg");
+  padding: 5em 0;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 79vh;
+}
+
+.home-about:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.home-hero {
+  background-image: url("../Nagatsuki/Images/koreanfriedchicken.jpg");
+  padding: 13em 0;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+}
+
+.home-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home-contact {
+  background-image: url("../Nagatsuki/Images/1549301159612.jpeg");
+  padding: 13em 0;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+}
+
+.home-contact:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.container {
+  width: 95%;
+  margin: auto;
+  font-size: 2.5rem;
+  color: #fff;
+  position: relative;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5em;
+  color: #fff;
+  position: relative;
+}
+
+.title span {
+  font-weight: 300;
+  display: block;
+  font-size: 1.2em;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em 1.7em;
+}
+
+.button-accent {
+  color: #ffffff;
+  border-color: ;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+  background: ;
+  color: ;
+}
+
+.home-about-text {
+  margin: auto;
+  padding: 3em;
+  font-size: 25px;
+  border: 2px solid white;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.abouttitle {
+  font-size: 40px;
+}
+
+header {
+  background-color: #222;
+  font-weight: 300;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 180px;
+  padding-top: 43px;
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #ddd;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 400px;
+  position: relative;
+}
+.footer .footer-content {
+  height: 350px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footre .footer-content h1,
+.footer .footer-content h2 {
+  color: white;
+}
+
+.footer .footer-content .about h1 span {
+  color: red;
+}
+
+.footer .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.footer .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.footer .footer-content .about .socials a:hover {
+  border: 1px solid white;
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: white;
+}
+
+.footer .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 15px;
+  transition: all 0.3s;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+  background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .contact-input {
+  width: 90%;
+  background: #272727;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer .footer-bottom {
+  background: #343a40;
+  color: #686868;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.btn-big {
+  padding: 0.7rem 1.3rem;
+  line-height: 1rem;
+}
+
+.logo-text {
+  font-size: 2em;
+  color: white;
+}
+
+.footer-text {
+  font-size: 17px;
+  color: white;
+}
+
+.home-contact-text {
+  text-align: center;
+}
+
+.about-title {
+  font-size: 25px;
+}
+
+.about-text {
+  font-size: 20px;
+}
+
+.aboutusdiv {
+  padding-top: 20px;
+  padding-right: 140px;
+  padding-bottom: 10px;
+  padding-left: 140px;
+  line-height: 2;
+}
+
+.aboutimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 50px;
+  height: 600px;
+}
+
+.navbar {
+  margin: -20px 0 0 0;
+}
+
+.contact-section {
+  background-image: url("../Nagatsuki/Images/17760197_779240952243380_8798299607386611010_n.0.0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  height: 700px;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: black;
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+
+.menus {
+  padding-top: 10px;
+  padding-left: 120px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.location {
+  margin: -15px;
+  padding-left: 13px;
+  padding-bottom: 65px;
+}
+
+.times {
+  margin: -10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.opening-hours span {
+  font-size: 15px;
+}
+
+.clearfix {
+  padding-left: 0;
+  line-height: 2;
+}
+
+.hour {
+  font-size: 30px;
+}
+
+.opening-hours ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
